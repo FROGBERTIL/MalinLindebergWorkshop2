@@ -2451,7 +2451,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 2fc00094baea86742be71c7221a79f8b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.567
+  m_Volume: 0.235
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2551,6 +2551,18 @@ MonoBehaviour:
   onTriggerEnter:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 736339860}
+        m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 736339860}
         m_TargetAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
         m_MethodName: set_enabled
@@ -2997,7 +3009,7 @@ MonoBehaviour:
   dialogue:
   - "Jag \xE4r pank..."
   - "Hur skaffar jag mer st\xE5lar?"
-  - ...
+  - Hmmmmm...........
   - Aha!
   - "Nu sjutton ska det stj\xE4las!"
   onStartDialogue:
@@ -3396,6 +3408,33 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1459328049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3189035693601337870, guid: 726c36dd11f1f20498b451e82bdc1f4f, type: 3}
+  m_PrefabInstance: {fileID: 3818164763303141851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1459328052
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459328049}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: dace2e33de4ed5f4dad7f18bde6f733e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1523086986
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3659,7 +3698,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3189035693601337870, guid: 726c36dd11f1f20498b451e82bdc1f4f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1459328052}
   m_SourcePrefab: {fileID: 100100000, guid: 726c36dd11f1f20498b451e82bdc1f4f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
