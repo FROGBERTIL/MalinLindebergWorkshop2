@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1119546757}
   - component: {fileID: 1119546756}
-  - component: {fileID: 1119546755}
   - component: {fileID: 1119546754}
   m_Layer: 0
   m_Name: Main Camera
@@ -182,14 +181,6 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
---- !u!81 &1119546755
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1119546753}
-  m_Enabled: 1
 --- !u!20 &1119546756
 Camera:
   m_ObjectHideFlags: 0
@@ -313,7 +304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You're just a lil' guy who wants to geet rich
+  m_text: You're just a lil' guy who wants to get rich
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cafa0e3283a06ba468d48efd257863c1, type: 2}
   m_sharedMaterial: {fileID: -7149546587896745991, guid: cafa0e3283a06ba468d48efd257863c1, type: 2}
