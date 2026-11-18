@@ -8012,7 +8012,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LimitedPlatformerMovement
   maxSpeed: 5
-  jumpForce: 6.5
+  jumpForce: 6
 --- !u!70 &725256136
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
