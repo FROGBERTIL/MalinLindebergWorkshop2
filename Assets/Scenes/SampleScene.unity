@@ -7219,7 +7219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioSlider
   mixer: {fileID: 24100000, guid: c8e3b9a435a6a0945a6634ffa1721f93, type: 2}
-  audioMixerParameter: 0-100
+  audioMixerParameter: 
   slider: {fileID: 1240386548}
   sliderValueText: {fileID: 414838967}
   valueScaleType: 0
@@ -8110,7 +8110,7 @@ GameObject:
   - component: {fileID: 801635291}
   - component: {fileID: 801635290}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Checkmark
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8502,7 +8502,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
+  m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1212995786
@@ -8910,7 +8910,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1846885019}
   m_FillRect: {fileID: 290579112}
   m_HandleRect: {fileID: 1846885018}
-  m_Direction: 0
+  m_Direction: 1
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 0
